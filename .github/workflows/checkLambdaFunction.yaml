@@ -14,7 +14,7 @@ jobs:
 
             - name: Install dependencies
               run:
-                python -p pip install pip --upgrade pip
+                pip install pip --upgrade pip
                 pip install -r requirements.txt
             - name : Run test
               run:
